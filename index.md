@@ -6,6 +6,9 @@ permalink: /
 
 idk tbh but feel free to look around : )
 
+![Mr Freshest](/assets/images/mr-fresh.gif)
+
+---
 
 ## What's here really?
 
