@@ -6,4 +6,6 @@ category: Jekyll
 layout: post
 ---
 
-[![Linkedin](/assets/images/linkedin.png)](https://www.linkedin.com/in/vtinnabavorn/).
+<a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+   <img src="/assets/images/linkedin.png" alt="LinkedIn" width="20" height="20">
+</a>
