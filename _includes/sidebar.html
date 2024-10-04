@@ -1,0 +1,19 @@
+<div class="sidebar-section">
+  <h3 onclick="toggleDropdown()">Certification Guide</h3>
+  <ul id="dropdown-menu" style="display: none;">
+    <li><a href="/cert1/">Certification 1</a></li>
+    <li><a href="/cert2/">Certification 2</a></li>
+    <li><a href="/cert3/">Certification 3</a></li>
+  </ul>
+</div>
+
+<script>
+function toggleDropdown() {
+  var menu = document.getElementById("dropdown-menu");
+  if (menu.style.display === "none") {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = "none";
+  }
+}
+</script>
