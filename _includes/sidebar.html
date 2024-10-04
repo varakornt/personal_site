@@ -1,6 +1,6 @@
 <div class="sidebar-section">
-  <h3 onclick="toggleDropdown()">Certification Guide</h3>
-  <ul id="dropdown-menu" style="display: none;">
+  <h3 onclick="toggleDropdown('cert-guide')">Certification Guide</h3>
+  <ul id="cert-guide" class="dropdown-content" style="display: none;">
     <li><a href="/cert1/">Certification 1</a></li>
     <li><a href="/cert2/">Certification 2</a></li>
     <li><a href="/cert3/">Certification 3</a></li>
@@ -8,12 +8,12 @@
 </div>
 
 <script>
-function toggleDropdown() {
-  var menu = document.getElementById("dropdown-menu");
-  if (menu.style.display === "none") {
-    menu.style.display = "block";
+function toggleDropdown(id) {
+  var element = document.getElementById(id);
+  if (element.style.display === "none") {
+    element.style.display = "block";
   } else {
-    menu.style.display = "none";
+    element.style.display = "none";
   }
 }
 </script>
