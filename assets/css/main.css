@@ -1,0 +1,17 @@
+/* Footer Styles */
+.site-footer {
+  background-color: #f8f8f8;   /* Light gray background */
+  padding: 20px 0;             /* Top and bottom padding */
+  text-align: center;          /* Center the text */
+  font-size: 14px;             /* Adjust font size */
+  color: #555;                 /* Text color */
+  width: 100%;                 /* Full width */
+  border-top: 1px solid #e7e7e7; /* Optional top border */
+  position: fixed;             /* Fix the footer at the bottom */
+  bottom: 0;
+  left: 0;
+}
+
+.site-footer p {
+  margin: 0;                   /* Remove default margins */
+}
