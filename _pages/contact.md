@@ -6,4 +6,4 @@ category: Jekyll
 layout: post
 ---
 
-[![Linkedin](assets/images/linkedin.png)](https://www.linkedin.com/in/vtinnabavorn/).
+[![Linkedin](/assets/images/linkedin.png)](https://www.linkedin.com/in/vtinnabavorn/).
