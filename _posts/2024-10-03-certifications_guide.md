@@ -13,7 +13,7 @@ This page covers the certifications I have taken and I will be sharing my experi
 The Trifecta CompTIA certifications (A+, Network+, and Security+) cover basics IT, networking, and security fundamentals. These certifications are the most common and recommended entry level certs for going into the IT and Cybersecurity field. Some of the contents from these three certs will overlap each other especially with the more advanced onces that CompTIA offers as it builds upon the basics and go a bit more in depth.
 
 
-####Beginner Certifications
+#### Beginner Certifications
 CompTIA A+, Network+ and Security+ Learning Resources:
 
 > ##### Recommended resources for visual and auditory learners
@@ -22,7 +22,7 @@ CompTIA A+, Network+ and Security+ Learning Resources:
 > https://www.youtube.com/@professormesser
 {: .block-tip }
 
-####Advanced Certifications
+#### Advanced Certifications
 
 
 ### ICS2
