@@ -18,11 +18,23 @@ CompTIA A+, Network+ and Security+ Learning Resources:
 
 > ##### Recommended resources for visual and auditory learners
 >
-> Professor Messer YouTube videos
-> https://www.youtube.com/@professormesser
+> [Professor Messer YouTube videos](https://www.youtube.com/@professormesser)
+>
 {: .block-tip }
 
+#### Intermediate Certifications
+CompTIA Linux+, Cloud+, PenTest+, and CySA+
+
 #### Advanced Certifications
+CompTIA CASP+
+
+This certification is the hardest cert available from CompTIA! This cert covers lots of different topics from many other CompTIA certs. So I would certainly save this for last as it builds off a lot of the knowledge from previous certs.
+
+
+#### CompTIA Certifications Pyramid Structure
+Most CompTIA Certifications expires three years the date after it is earned. Exception includes: Linux+, Project+, and Server+. But! CompTIA let's us renew an active certs only if the cert being earn is of higher level in the pyramid. So if I took Security+ a year ago and was able to pass CySA+ recently, my active Security+ would also get its date renew to the new CySA expiration date. Awesome!
+![CompTIA Certs Pyramid!](/assets/images/comptia_pyramid.png "CompTIA Certification Pyramid Structure")
+[Reference here](https://www.comptia.org/continuing-education/learn/renewing-multiple-certifications)
 
 
 ### ICS2
