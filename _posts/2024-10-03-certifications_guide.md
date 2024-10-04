@@ -9,7 +9,6 @@ layout: post
 This page covers the certifications I have taken and I will be sharing my experiences on what I did to study in order to pass the exams.
 
 ### CompTIA
-
 The Trifecta CompTIA certifications (A+, Network+, and Security+) cover basics IT, networking, and security fundamentals. These certifications are the most common and recommended entry level certs for going into the IT and Cybersecurity field. Some of the contents from these three certs will overlap each other especially with the more advanced onces that CompTIA offers as it builds upon the basics and go a bit more in depth.
 
 #### Beginner Certifications
@@ -35,6 +34,7 @@ Most CompTIA Certifications expires three years the date after it is earned. Exc
 ![CompTIA Certs Pyramid!](../assets/images/comptia_pyramid.png "CompTIA Certification Pyramid Structure")
 [Reference here](https://www.comptia.org/continuing-education/learn/renewing-multiple-certifications)
 
+---
 
 ### ICS2
 
