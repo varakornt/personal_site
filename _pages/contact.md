@@ -6,4 +6,4 @@ category: Jekyll
 layout: post
 ---
 
-[Linkedin](https://www.linkedin.com/in/vtinnabavorn/ "Varakorn Tinnabavorn's Linkedin").
+[![Linkedin](assets/images/linkedin.png)](https://www.linkedin.com/in/vtinnabavorn/).
