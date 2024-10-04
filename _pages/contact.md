@@ -7,5 +7,5 @@ layout: post
 ---
 
 <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-   <img src="/assets/images/linkedin.png" alt="LinkedIn" width="20" height="20">
+   <img src="/assets/images/linkedin.png" alt="LinkedIn" width="20" height="20"> LinkedIn
 </a>
