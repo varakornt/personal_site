@@ -1,12 +1,16 @@
 <div class="sidebar-section">
+  <!-- Main clickable Certification Guide -->
   <h3 onclick="toggleDropdown('cert-guide')">Certification Guide</h3>
-  <ul id="cert-guide" class="dropdown-content" style="display: none;">
+
+  <!-- Hidden dropdown content (Certifications) -->
+  <ul id="cert-guide" style="display: none;">
     <li><a href="/cert1/">Certification 1</a></li>
     <li><a href="/cert2/">Certification 2</a></li>
     <li><a href="/cert3/">Certification 3</a></li>
   </ul>
 </div>
 
+<!-- JavaScript to handle the dropdown behavior -->
 <script>
 function toggleDropdown(id) {
   var element = document.getElementById(id);
