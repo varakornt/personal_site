@@ -1,9 +1,9 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
+author: Varakorn Tinnabavorn
+date: 2024-10-04
 category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+[Linkedin](https://www.linkedin.com/in/vtinnabavorn/ "Varakorn Tinnabavorn's Linkedin").
