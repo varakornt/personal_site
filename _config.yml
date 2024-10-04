@@ -3,8 +3,7 @@ title:            Where am I?
 longtitle:        Where am I?
 author:           Varakorn Tinnabavorn
 email:            me@varakorntinabavorn.com
-description: >
-  Build Jekyll site with the GitBook style.
+description: "Varakorn Tinnabavorn personal website"
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -62,7 +61,7 @@ ordered_collections:
   - pages
     #  - others
 
-page_width: 800px
+page_width: 1000px
 
 destination:      ./_site
 incremental:      false
@@ -72,3 +71,4 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+  - jekyll-seo-tag

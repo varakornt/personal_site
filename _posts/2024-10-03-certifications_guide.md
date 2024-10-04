@@ -3,6 +3,8 @@ title: Certification Guide
 author: Varakorn Tinnabavorn
 date: 2024-10-03
 category: Jekyll
+excerpt: A comprehensive guide to help you navigate certifications like CompTIA, CISSP, and more, based on personal experience.
+permalink: /certification-guide
 layout: post
 ---
 
