@@ -1,17 +1,10 @@
-/* Footer Styles */
-.site-footer {
-  background-color: #f8f8f8;   /* Light gray background */
-  padding: 20px 0;             /* Top and bottom padding */
-  text-align: center;          /* Center the text */
-  font-size: 14px;             /* Adjust font size */
-  color: #555;                 /* Text color */
-  width: 100%;                 /* Full width */
-  border-top: 1px solid #e7e7e7; /* Optional top border */
-  position: fixed;             /* Fix the footer at the bottom */
-  bottom: 0;
-  left: 0;
-}
-
-.site-footer p {
-  margin: 0;                   /* Remove default margins */
+footer {
+  text-align: center;  /* Centers the text */
+  padding: 20px;       /* Adds padding around the footer */
+  background-color: #f8f8f8;  /* Light background for better contrast */
+  font-size: 14px;     /* Adjusts font size */
+  color: #555;         /* Sets a subtle color for the text */
+  border-top: 1px solid #ddd;  /* Adds a subtle top border */
+  width: 100%;         /* Makes sure it stretches across the full width */
+  position: relative;  /* Keeps it relative to the content */
 }
