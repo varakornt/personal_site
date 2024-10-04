@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Where Am I?
+title: Where am I?
 permalink: /
 ---
 
