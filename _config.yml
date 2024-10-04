@@ -11,8 +11,8 @@ gitbook_version:  3.2.3
 url:              'https://varakorntinnabavorn.com'
 baseurl:          '/'
 rss:              RSS
-linkedin_username: "vtinnabavorn"
-github_username: "varakornt"
+  #linkedin_username: "vtinnabavorn"
+  #github_username: "varakornt"
 
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
