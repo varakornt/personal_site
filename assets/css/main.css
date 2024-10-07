@@ -1,51 +1,62 @@
+/* Footer Styles (If you're using this footer styling) */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  position: relative;
+}
+
 /* General Styles for Blog Page */
 
 /* Title Styling */
 .blog-title {
-    font-size: 2.5rem;
+    font-size: 1.8rem; /* Smaller title size */
     color: #333;
-    font-weight: 700;
+    font-weight: 600;
     text-align: left;
-    margin-bottom: 30px;
-    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 /* Blog Container */
 .blog-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller columns */
+    gap: 10px; /* Smaller gaps */
+    padding: 10px;
 }
 
 /* Blog Box Styles */
 .blog-box-text {
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 20px;
+    border-radius: 8px; /* Softer corners */
+    padding: 15px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow */
 }
 
 .blog-box-text:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px); /* Slight hover effect */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08); /* Lighter hover shadow */
 }
 
 /* Header styles for sections and sub-links */
 .blog-box-text h2, .blog-box-text h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem; /* Smaller font sizes */
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 500;
     color: #333;
 }
 
 .blog-box-text h3 a {
     color: #0073e6;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -57,11 +68,11 @@
 /* Responsive Adjustments */
 @media screen and (max-width: 768px) {
     .blog-title {
-        font-size: 2rem;
+        font-size: 1.6rem; /* Smaller title on mobile */
     }
 
     .blog-box-text h2, .blog-box-text h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem; /* Smaller headers on mobile */
     }
 }
 
@@ -75,18 +86,6 @@
 
 .blog-category-content .blog-box-text {
     width: 100%;
-    padding: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03);
-}
-
-/* Footer Styles (If you're using this footer styling) */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #f8f8f8;
-  font-size: 14px;
-  color: #555;
-  border-top: 1px solid #ddd;
-  width: 100%;
-  position: relative;
+    padding: 10px; /* Smaller padding inside boxes */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.03); /* Lighter box shadow */
 }
