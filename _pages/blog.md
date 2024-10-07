@@ -2,30 +2,28 @@
 title: Blog
 author: Varakorn Tinnabavorn
 date: 2024-10-07
-description: A blog that contain various topics based on my personal experience.
+description: A blog that contains various topics based on my personal experience.
 category: Jekyll
 layout: post
 ---
 
-<div class="blog-container">
+<h1 class="blog-title">Blog</h1>
 
+<div class="blog-container">
     <!-- Certification Guide Section -->
-    <div class="blog-category">
-        <div class="blog-box-text" id="certification-guide">
-            <h2>Certification Guide</h2>
+    <div class="blog-box-text" id="certification-guide">
+        <h2>Certification Guide</h2>
+    </div>
+    <div class="blog-category-content" id="certification-content" style="display: none;">
+        <div class="blog-box-text">
+            <h3><a href="{{ site.baseurl }}/blog/comptia-guide">CompTIA Guide</a></h3>
         </div>
-        <div class="blog-category-content" id="certification-content" style="display: none;">
-            <div class="blog-box-text">
-                <h3><a href="{{ site.baseurl }}/blog/comptia-guide">CompTIA Guide</a></h3>
-            </div>
-            <div class="blog-box-text">
-                <h3><a href="{{ site.baseurl }}/blog/cissp-guide">CISSP Guide</a></h3>
-            </div>
-            <!-- Add more articles related to the Certification Guide here -->
+        <div class="blog-box-text">
+            <h3><a href="{{ site.baseurl }}/blog/cissp-guide">CISSP Guide</a></h3>
         </div>
     </div>
 
-    <!-- Add more categories in a similar way -->
+    <!-- Add more sections like the above -->
 </div>
 
 <script>
