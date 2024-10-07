@@ -16,10 +16,10 @@ layout: post
         </div>
         <div class="blog-category-content" id="certification-content" style="display: none;">
             <div class="blog-box-text">
-                <h3><a href="{{ site.baseurl }}/blog/comptia-guide/">CompTIA Guide</a></h3>
+                <h3><a href="{{ site.baseurl }}/blog/comptia-guide">CompTIA Guide</a></h3>
             </div>
             <div class="blog-box-text">
-                <h3><a href="{{ site.baseurl }}/blog/cissp-guide/">CISSP Guide</a></h3>
+                <h3><a href="{{ site.baseurl }}/blog/cissp-guide">CISSP Guide</a></h3>
             </div>
             <!-- Add more articles related to the Certification Guide here -->
         </div>
