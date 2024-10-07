@@ -1,6 +1,5 @@
 # Configurations
 title:            Where am I?
-longtitle:        Where am I?
 author:           Varakorn Tinnabavorn
 email:            me@varakorntinabavorn.com
 description: "Varakorn Tinnabavorn personal website"
@@ -75,3 +74,4 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-assets
