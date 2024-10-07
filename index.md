@@ -2,6 +2,7 @@
 layout: home
 title: Where am I?
 permalink: /
+layout: home
 ---
 
 idk tbh but feel free to look around : )
