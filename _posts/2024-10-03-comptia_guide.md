@@ -4,7 +4,7 @@ author: Varakorn Tinnabavorn
 date: 2024-10-03
 category: Jekyll
 description: A comprehensive guide to help you navigate certifications like CompTIA, CISSP, and more, based on personal experience.
-permalink: /comptia-guide
+permalink: /blog/comptia-guide
 layout: post
 ---
 
