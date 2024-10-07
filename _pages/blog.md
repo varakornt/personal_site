@@ -1,11 +1,9 @@
-layout: post
 ---
 title: Blog
-date: 2024-10-07
 author: Varakorn Tinnabavorn
+date: 2024-10-07
 description: A blog that contain various topics based on my personal experience.
 category: Jekyll
-permalink: /blog/
 layout: post
 ---
 
