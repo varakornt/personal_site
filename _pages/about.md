@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Me
 author: Varakorn Tinnabavorn
 date: 2024-10-04
 category: Jekyll
