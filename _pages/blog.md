@@ -7,26 +7,39 @@ category: Jekyll
 layout: post
 ---
 
-<div class="blog-container">
-    <!-- Certification Guide Section -->
-    <div class="blog-box-text" id="certification-guide">
-        <h2>Certification Guide</h2>
-        <p>Expand to explore guides on various certifications such as CompTIA and CISSP.</p>
-    </div>
-
-    <div class="blog-category-content" id="certification-content" style="display: none;">
-        <div class="blog-box-text">
-            <h3><a href="{{ site.baseurl }}/blog/comptia-guide">CompTIA Guide</a></h3>
-        </div>
-        <div class="blog-box-text">
-            <h3><a href="{{ site.baseurl }}/blog/cissp-guide">CISSP Guide</a></h3>
-        </div>
-    </div>
+<div class="back-to-list">
+   <a href="{{ site.baseurl }}/blog">← Back to list</a>
 </div>
 
-<script>
-    document.getElementById("certification-guide").onclick = function() {
-        var content = document.getElementById("certification-content");
-        content.style.display = content.style.display === "none" ? "grid" : "none";
-    };
-</script>
+<div class="blog-container">
+    <!-- Certification Guide -->
+    <div class="blog-item">
+        <a href="{{ site.baseurl }}/blog/certification-guide">
+            <div class="blog-image">
+                <img src="/assets/images/security_logo.png" alt="Certification Guide Image">
+            </div>
+            <h3>Certification Guide</h3>
+            <p>Explore guides on certifications like CompTIA and CISSP.</p>
+        </a>
+    </div>
+
+    <!-- CompTIA Guide -->
+    <div class="blog-item">
+        <a href="{{ site.baseurl }}/blog/comptia-guide">
+            <div class="blog-image">
+                <img src="/assets/images/security_logo.png" alt="CompTIA Guide Image">
+            </div>
+            <h3>CompTIA Guide</h3>
+        </a>
+    </div>
+
+    <!-- CISSP Guide -->
+    <div class="blog-item">
+        <a href="{{ site.baseurl }}/blog/cissp-guide">
+            <div class="blog-image">
+                <img src="/assets/images/cissp_logo.png" alt="CISSP Guide Image">
+            </div>
+            <h3>CISSP Guide</h3>
+        </a>
+    </div>
+</div>

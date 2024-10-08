@@ -10,89 +10,99 @@ footer {
   position: relative;
 }
 
-/* Title Styling */
-.blog-title {
-    font-size: 2rem;
-    color: #333;
-    font-weight: 700;
-    text-align: left;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #0073e6;
-    padding-bottom: 10px;
+/* Back to List Button */
+.back-to-list {
+    margin-bottom: 20px;
 }
 
-/* Blog Container */
+.back-to-list a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.back-to-list a:hover {
+    color: #0073e6;
+}
+
+/* Blog Page Layout */
 .blog-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Wider columns */
-    gap: 15px; /* Adjusted gaps */
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
 }
 
-/* Blog Box Styles */
-.blog-box-text {
+.blog-item {
+    position: relative;
+    overflow: hidden;
     background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
     padding: 20px;
+    border-radius: 8px;
     text-align: left;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05); /* More pronounced shadow */
+    transition: box-shadow 0.3s ease;
 }
 
-.blog-box-text:hover {
-    transform: translateY(-5px); /* Slight hover effect */
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.08); /* Deeper hover shadow */
+.blog-item:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Header styles for sections and sub-links */
-.blog-box-text h2, .blog-box-text h3 {
-    font-size: 1.6rem; /* Larger font sizes */
-    margin-bottom: 15px;
-    font-weight: 600;
+.blog-item a {
+    text-decoration: none;
     color: #333;
 }
 
-.blog-box-text p {
-    font-size: 1rem;
-    color: #555;
+.blog-item h3 {
+    margin-top: 10px;
+    font-size: 1.6rem;
 }
 
-.blog-box-text h3 a {
-    color: #0073e6;
-    font-weight: 500;
-    text-decoration: none;
-    transition: color 0.3s ease;
+.blog-item p {
+    font-size: 0.9rem;
+    color: #666;
 }
 
-.blog-box-text h3 a:hover {
-    color: #005bb5;
-    text-decoration: underline;
+/* Blog Image */
+.blog-image {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.blog-item:hover .blog-image img {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Blog Page Titles */
+.blog-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
 }
 
 /* Responsive Adjustments */
 @media screen and (max-width: 768px) {
     .blog-title {
-        font-size: 1.8rem; /* Adjusted title size for mobile */
+        font-size: 2rem;
     }
 
-    .blog-box-text h2, .blog-box-text h3 {
-        font-size: 1.4rem;
+    .subtitle {
+        font-size: 1rem;
     }
-}
 
-/* Toggle Effect (Hide and Show Content) */
-.blog-category-content {
-    display: none;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    margin-top: 20px;
-    transition: all 0.3s ease; /* Smooth transition */
-}
-
-.blog-category-content .blog-box-text {
-    width: 100%;
-    padding: 15px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.03); /* Subtle shadow */
+    .blog-container {
+        grid-template-columns: 1fr;
+    }
 }
