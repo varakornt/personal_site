@@ -9,14 +9,14 @@ layout: post
 ---
 
 <div class="blog-container">
-    <!-- Certification Guide -->
+    <!-- Are Certifications Worth It? -->
     <div class="blog-item">
-        <a href="{{ site.baseurl }}/blog/certification-guide">
+        <a href="{{ site.baseurl }}/blog/cert-worth">
             <div class="blog-image">
-                <img src="/assets/images/security_logo.png" alt="Certification Guide Image">
+                <img src="/assets/images/security_logo.png" alt="Certifications Image">
             </div>
-            <h3>Certification Guide</h3>
-            <p>Explore guides on certifications like CompTIA and CISSP.</p>
+            <h3>Certifications Worth</h3>
+            <p>Are Cybersecurity certifications worth it? If so, which certs should you go for?</p>
         </a>
     </div>
 
