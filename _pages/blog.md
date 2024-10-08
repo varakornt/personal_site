@@ -30,6 +30,7 @@ layout: post
                 <img src="/assets/images/security_logo.png" alt="CompTIA Guide Image">
             </div>
             <h3>CompTIA Guide</h3>
+            <p>Overview of CompTIA certifications and what I need to study for the exams.</p>
         </a>
     </div>
 
@@ -40,6 +41,7 @@ layout: post
                 <img src="/assets/images/cissp_logo.png" alt="CISSP Guide Image">
             </div>
             <h3>CISSP Guide</h3>
+            <p>I will walkthough how I only studied for 12 hours and pass the exam.</p>
         </a>
     </div>
 </div>
