@@ -13,7 +13,7 @@ layout: post
     <div class="blog-item">
         <a href="{{ site.baseurl }}/blog/cert-worth">
             <div class="blog-image">
-                <img src="/assets/images/security_logo.png" alt="Certifications Image">
+                <img src="/assets/images/comptia_pathway.png" alt="Certifications Image">
             </div>
             <h3>Certifications Worth</h3>
             <p>Are Cybersecurity certifications worth it? If so, which certs should you go for?</p>
