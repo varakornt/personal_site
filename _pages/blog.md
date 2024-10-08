@@ -4,12 +4,9 @@ author: Varakorn Tinnabavorn
 date: 2024-10-07
 description: A blog that contains various topics based on my personal experience.
 category: Jekyll
+permalink: /blog/
 layout: post
 ---
-
-<div class="back-to-list">
-   <a href="{{ site.baseurl }}/blog">← Back to list</a>
-</div>
 
 <div class="blog-container">
     <!-- Certification Guide -->
